@@ -43,4 +43,4 @@ def home(request):
 def delete_city(request,CName):
     City.objects.get(name=CName).delete()
     messages.success(request," "+CName+" Removed Successfully...!!!")
-    return redirect('Home')
+    return redirect('Homee')
